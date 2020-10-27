@@ -1,0 +1,50 @@
+.navbar {
+	background-color: #FFFFFF !important;
+	padding: 10px 2%;
+}
+
+.nav-logo {
+	object-fit: contain !important;
+	width: 50px;
+}
+
+.nav-text {
+	display: inline-block;
+	text-decoration: none;
+	height: 50px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-text {
+		display: none;
+	}
+}
+
+.nav-text div {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #009C07;
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 0 5px;
+}
+.nav-text span {
+	color: #000;
+	font-size: 2.1rem;
+}
+
+.nav-links {
+	text-decoration: none;
+	font-size: 1.1rem;
+	transition: ease-in 0.2s;
+}
+
+.nav-hello {
+	margin-right: 10px !important;
+	margin-left: auto !important;
+	color: #000 !important;
+	font-size: 1.6rem;
+	font-weight: 500;
+}

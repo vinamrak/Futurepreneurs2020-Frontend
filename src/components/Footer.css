@@ -1,0 +1,46 @@
+.footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer a {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+.bottom a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 1px;
+}
+
+.footer .iia {
+    color: #009C07;
+    font-size: 2vw;
+    margin: 1.3rem 0;
+}
+
+@media (max-width: 900px) {
+    .footer .iia {
+        font-size: 3vw;
+    }
+    .footer a {
+        font-size: 2.8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer .iia {
+        font-size: 4vw;
+    }
+    .footer a {
+        font-size: 3.8vw;
+    }
+}

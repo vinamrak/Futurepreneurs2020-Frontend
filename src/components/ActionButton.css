@@ -1,0 +1,9 @@
+.action-btn {
+	background-color: #009C07 !important;
+	color: white !important;
+	border-radius: 20px !important;
+	font-family: "Inter", sans-serif !important;
+	font-weight: bold !important;
+	padding: 0 30px !important;
+	height: 44px !important;
+}
